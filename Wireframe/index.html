@@ -5,31 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href= "style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <p>header</p>
-    </header>
-    <nav>
-        <p>nav</p>
-    </nav>
-    <section>
-        <p>section</p>
-        <article>
-            <p id="articleheading">article</p>
-            <div>
-                <h1 id="articlewriting">h1, h2, h3</h1>
-                <p>p</p>
-            </div>
-        </article>
-        </article>
-    </section>
-    <aside>
-        <p>aside</p>
-    </aside>
-    <footer>
-        <p>footer</p>
-    </footer>
+    <div class="secondlevel">
+        <header class="centercontainer">
+            <p id="centeredtext">header</p>
+        </header>
+        <nav class="centercontainer">
+            <p id="centeredtext">nav</p>
+        </nav> 
+        <div class="middlelevel">
+            <section>
+                <div>
+                    <p class="child">section</p> 
+                </div>
+                <article>
+                    <p class="articlewriting">article</p>
+                    <div class="container">
+                        <div class="articlechild">
+                            <h1 id="centeredtext">h1, h2, h3</h1>
+                        </div>
+                        <div class="articlechild">
+                            <p id="centeredtext">p</p>
+                        </div>
+                    </div>  
+                </article>                   
+            </section>  
+            <aside>
+                <p class="child">aside</p>
+            </aside> 
+        </div>
+        <footer class="centercontainer">
+            <p id="centeredtext">footer</p>
+        </footer>
+    </div>
 </body>
 </html>
